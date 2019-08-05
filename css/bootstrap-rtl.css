@@ -5,7 +5,7 @@
 
 .navbar-header {
     position: absolute;
-    top: 12rem;
+    top: 8rem;
     left: 6rem;
 }
 
@@ -15,8 +15,10 @@
 
 .fix {
     left: 4rem;
-    top: 6rem;
+    top: 4rem;
 }
+
+.lead{font-size: 19px;}
 
 .img-responsive {
     display: inline-block;
