@@ -1,3 +1,4 @@
+'use strict';
 //to top btn
 var btn = document.getElementById('to-top-btn');
 if(btn){
