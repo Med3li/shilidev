@@ -1,4 +1,3 @@
-'use strict';
 //to top btn
 var btn = document.getElementById('to-top-btn');
 if(btn){
@@ -47,13 +46,13 @@ webBtn.classList.remove('active');
 androidBtn.classList.remove('active');
 iosBtn.classList.remove('active');
 //cards style
-for(i=0;i<web.length;i++){
+for(var i=0;i<web.length;i++){
 web[i].style.display = 'block';
 }
-for(i=0;i<android.length;i++){
+for(var i=0;i<android.length;i++){
 android[i].style.display = 'block';
 }
-for(i=0;i<ios.length;i++){
+for(var i=0;i<ios.length;i++){
 ios[i].style.display = 'block';
 }
 });
@@ -63,13 +62,13 @@ allBtn.classList.remove('active');
 androidBtn.classList.remove('active');
 iosBtn.classList.remove('active');
 //cards style
-for(i=0;i<web.length;i++){
+for(var i=0;i<web.length;i++){
 web[i].style.display = 'block';
 }
-for(i=0;i<android.length;i++){
+for(var i=0;i<android.length;i++){
 android[i].style.display = 'none';
 }
-for(i=0;i<ios.length;i++){
+for(var i=0;i<ios.length;i++){
 ios[i].style.display = 'none';
 }
 
@@ -80,13 +79,13 @@ webBtn.classList.remove('active');
 allBtn.classList.remove('active');
 iosBtn.classList.remove('active');
 //cards style
-for(i=0;i<web.length;i++){
+for(var i=0;i<web.length;i++){
 web[i].style.display = 'none';
 }
-for(i=0;i<android.length;i++){
+for(var i=0;i<android.length;i++){
 android[i].style.display = 'block';
 }
-for(i=0;i<ios.length;i++){
+for(var i=0;i<ios.length;i++){
 ios[i].style.display = 'none';
 }
 });
@@ -96,13 +95,13 @@ webBtn.classList.remove('active');
 androidBtn.classList.remove('active');
 allBtn.classList.remove('active');
 //cards style
-for(i=0;i<web.length;i++){
+for(var i=0;i<web.length;i++){
 web[i].style.display = 'none';
 }
-for(i=0;i<android.length;i++){
+for(var i=0;i<android.length;i++){
 android[i].style.display = 'none';
 }
-for(i=0;i<ios.length;i++){
+for(var i=0;i<ios.length;i++){
 ios[i].style.display = 'block';
 }
 });
